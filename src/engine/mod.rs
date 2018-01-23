@@ -6,6 +6,7 @@ pub mod engine {
 pub struct Engine {
     events_loop: glutin::EventLoop,
     gl_window: glutin::GLWindow,
+    engine_running: bool
 }
 
 impl Engine {
@@ -21,7 +22,8 @@ impl Engine {
 
        Engine {
            events_loop: glutin::EventsLoop::new(),
-           gl_window
+           gl_window,
+           engine_running: true,
        }
    }
 
