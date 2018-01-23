@@ -1,0 +1,8 @@
+[package]
+name = "allegretto"
+version = "0.1.0"
+authors = ["derek <derek@llamabagel.ca>"]
+
+[dependencies]
+glutin = "*"
+gl = "*"
